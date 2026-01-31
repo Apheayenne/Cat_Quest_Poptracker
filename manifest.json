@@ -1,0 +1,14 @@
+{
+    "name": "Cat_Quest_PopTracker",
+    "game_name": "Cat Quest",
+    "package_uid": "cat_quest_pt",
+    "package_version": "0.1.0",
+    "platform": "PC",
+    "variants": {
+        "Standard": {
+            "display_name": "Standard"
+        }
+    },
+    "versions_url": "https://example.com/versions.json",
+    "author": "Apheayenne"
+}

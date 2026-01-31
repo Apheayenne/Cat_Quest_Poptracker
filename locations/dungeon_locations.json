@@ -1,0 +1,407 @@
+[
+    {
+        "name": "Cave",
+        "children": [
+            {
+                "name": "Mewtown",
+                "map_locations": [
+                    {
+                        "map":"overworld",
+                        "x":1405,
+                        "y":2605
+                    }
+                ],
+                "sections":[
+                    {
+                        "name":"CHANGE",
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Catpital - West",
+                "map_locations": [
+                    {
+                        "map":"overworld",
+                        "x":1525,
+                        "y":2390
+                    }
+                ],
+                "sections":[
+                    {
+                        "name":"CHANGE",
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Catpital - East",
+                "map_locations": [
+                    {
+                        "map":"overworld",
+                        "x":1675,
+                        "y":2375
+                    }
+                ],
+                "sections":[
+                    {
+                        "name":"CHANGE",
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Catpital Lake",
+                "map_locations": [
+                    {
+                        "map":"overworld",
+                        "x":1295,
+                        "y":2155
+                    }
+                ],
+                "sections":[
+                    {
+                        "name":"CHANGE",
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Fishercat's Friend",
+                "map_locations": [
+                    {
+                        "map":"overworld",
+                        "x":1045,
+                        "y":1955
+                    }
+                ],
+                "sections":[
+                    {
+                        "name":"CHANGE",
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Queen's Resort",
+                "map_locations": [
+                    {
+                        "map":"overworld",
+                        "x":1050,
+                        "y":1760
+                    }
+                ],
+                "sections":[
+                    {
+                        "name":"CHANGE",
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Bermewda",
+                "map_locations": [
+                    {
+                        "map":"overworld",
+                        "x":1375,
+                        "y":1705
+                    }
+                ],
+                "sections":[
+                    {
+                        "name":"CHANGE",
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Founders Island",
+                "map_locations": [
+                    {
+                        "map":"overworld",
+                        "x":240,
+                        "y":1685
+                    }
+                ],
+                "sections":[
+                    {
+                        "name":"CHANGE",
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "South of Queens Resort",
+                "map_locations": [
+                    {
+                        "map":"overworld",
+                        "x":810,
+                        "y":1850
+                    }
+                ],
+                "sections":[
+                    {
+                        "name":"CHANGE",
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Cat Grove",
+                "map_locations": [
+                    {
+                        "map":"overworld",
+                        "x":2170,
+                        "y":2690
+                    }
+                ],
+                "sections":[
+                    {
+                        "name":"CHANGE",
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "West Pawt",
+                "map_locations": [
+                    {
+                        "map":"overworld",
+                        "x":430,
+                        "y":1465
+                    }
+                ],
+                "sections":[
+                    {
+                        "name":"CHANGE",
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Pawt City",
+                "map_locations": [
+                    {
+                        "map":"overworld",
+                        "x":95,
+                        "y":1300
+                    }
+                ],
+                "sections":[
+                    {
+                        "name":"CHANGE",
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Winter's Edge",
+                "map_locations": [
+                    {
+                        "map":"overworld",
+                        "x":720,
+                        "y":635
+                    }
+                ],
+                "sections":[
+                    {
+                        "name":"CHANGE",
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Final Rest",
+                "map_locations": [
+                    {
+                        "map":"overworld",
+                        "x":985,
+                        "y":820
+                    }
+                ],
+                "sections":[
+                    {
+                        "name":"CHANGE",
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Furbidden Fields",
+                "map_locations": [
+                    {
+                        "map":"overworld",
+                        "x":1250,
+                        "y":1110
+                    }
+                ],
+                "sections":[
+                    {
+                        "name":"CHANGE",
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Twin Towns - West",
+                "map_locations": [
+                    {
+                        "map":"overworld",
+                        "x":1690,
+                        "y":1660
+                    }
+                ],
+                "sections":[
+                    {
+                        "name":"CHANGE",
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Twin Towns - East",
+                "map_locations": [
+                    {
+                        "map":"overworld",
+                        "x":1837,
+                        "y":1630
+                    }
+                ],
+                "sections":[
+                    {
+                        "name":"CHANGE",
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "East Pawt",
+                "map_locations": [
+                    {
+                        "map":"overworld",
+                        "x":2100,
+                        "y":2045
+                    }
+                ],
+                "sections":[
+                    {
+                        "name":"CHANGE",
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Old Masters Island",
+                "map_locations": [
+                    {
+                        "map":"overworld",
+                        "x":370,
+                        "y":2015
+                    }
+                ],
+                "sections":[
+                    {
+                        "name":"CHANGE",
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Felingard Lake",
+                "map_locations": [
+                    {
+                        "map":"overworld",
+                        "x":660,
+                        "y":1250
+                    }
+                ],
+                "sections":[
+                    {
+                        "name":"CHANGE",
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Frozen Paw",
+                "map_locations": [
+                    {
+                        "map":"overworld",
+                        "x":900,
+                        "y":475
+                    }
+                ],
+                "sections":[
+                    {
+                        "name":"CHANGE",
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Windmew",
+                "map_locations": [
+                    {
+                        "map":"overworld",
+                        "x":2060,
+                        "y":460
+                    }
+                ],
+                "sections":[
+                    {
+                        "name":"CHANGE",
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Pawtato Farms",
+                "map_locations": [
+                    {
+                        "map":"overworld",
+                        "x":2310,
+                        "y":195
+                    }
+                ],
+                "sections":[
+                    {
+                        "name":"CHANGE",
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Death Isle",
+                "map_locations": [
+                    {
+                        "map":"overworld",
+                        "x":2355,
+                        "y":940
+                    }
+                ],
+                "sections":[
+                    {
+                        "name":"CHANGE",
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Hilly Hills",
+                "map_locations": [
+                    {
+                        "map":"overworld",
+                        "x":2275,
+                        "y":1275
+                    }
+                ],
+                "sections":[
+                    {
+                        "name":"CHANGE",
+                        "access_rules": []
+                    }
+                ]
+            }
+        ]
+    }
+]

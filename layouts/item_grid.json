@@ -1,0 +1,40 @@
+{
+    "item_grid": {
+        "type": "container",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_size": 64,
+                "item_margin": "1,1",
+                "margin": "1,1,1,1",
+                "item_h_alignment": "center",
+                "item_v_alignment": "center",
+                "rows":[
+                    ["flamepaw", "freezepaw"],
+                    ["lightnyan", "healingpaw"],
+                    ["purrserk", "astropaw"],
+                    ["waterwalking", "flying"],
+                    ["goldkey"]
+                ]
+            }
+        ]
+    },
+    "item_setting":{
+        "type": "dock",
+        "content": [
+            {
+                "type": "itemgrid",
+				"h_alignment": "center",
+                "item_size": 64,
+                "item_margin": "1,1",
+                "margin": "1,1,1,1",
+                "item_h_alignment": "center",
+                "item_v_alignment": "center",
+                "rows":[
+                    ["cave_setting", "ruin_setting"]
+                ]
+            }
+        ]
+    }
+}

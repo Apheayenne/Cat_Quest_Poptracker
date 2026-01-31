@@ -1,0 +1,9 @@
+[
+    {
+        "name": "overworld",
+        "location_size": 40,
+        "location_border_thickness": 2,
+        "location_shape": "rect",
+        "img": "images/WorldMap.jpeg"
+    }
+]

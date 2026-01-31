@@ -1,0 +1,40 @@
+{
+    "tracker_default":{
+        "type":"dock",
+        "content":[
+            {
+                "type":"dock",
+                "dock":"left",
+                "content":[
+                    {
+                        "type":"group",
+                        "header":"Items",
+                        "dock":"top",
+                        "content":{
+                            "type": "layout",
+                            "key": "item_grid"
+                        }
+                    },
+                    {
+                        "type": "group",
+                        "header": "Settings",
+                        "dock": "top",
+                        "content": {
+                            "type": "layout",
+                            "key": "item_setting"
+                        }
+                    }
+                ]
+            },
+            {
+                "type":"container",
+                "content":[
+                    {
+                        "type":"map",
+                        "map":"overworld"
+                    }
+                ]
+            }
+        ]
+    }
+}

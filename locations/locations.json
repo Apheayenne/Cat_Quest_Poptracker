@@ -1,0 +1,678 @@
+[
+    {
+        "name": "Overworld",
+        "children": [
+            {
+                "name": "Mewtown",
+                "map_locations": [
+                    {
+                        "map":"overworld",
+                        "x":1405,
+                        "y":2605
+                    }
+                ],
+                "sections":[
+                    {
+                        "name":"A Whole New World",
+                        "access_rules": []
+                    },
+                    {
+                        "name":"The Growling Peasant",
+                        "access_rules": []
+                    },
+                    {
+                        "name":"The Catnip Ritual",
+                        "access_rules": []
+                    },
+                    {
+                        "name":"The Circle",
+                        "access_rules": []
+                    },
+                    {
+                        "name":"Fur-reedom",
+                        "access_rules": []
+                    },
+                    {
+                        "name":"The Whispurrer",
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Catpital - West",
+                "map_locations": [
+                    {
+                        "map":"overworld",
+                        "x":1525,
+                        "y":2390
+                    }
+                ],
+                "sections":[
+                    {
+                        "name":"The Catpital 1",
+                        "access_rules": []
+                    },
+                    {
+                        "name":"The King's Mage",
+                        "access_rules": []
+                    },
+                    {
+                        "name":"The Catpital 2",
+                        "access_rules": []
+                    },
+                    {
+                        "name":"The Mage Search",
+                        "access_rules": []
+                    },
+                    {
+                        "name":"The Spirits",
+                        "access_rules": []
+                    },
+                    {
+                        "name":"The Lion King",
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Catpital - East",
+                "map_locations": [
+                    {
+                        "map":"overworld",
+                        "x":1675,
+                        "y":2375
+                    }
+                ],
+                "sections":[
+                    {
+                        "name":"The Missing Soldiers",
+                        "access_rules": []
+                    },
+                    {
+                        "name":"The Rescue",
+                        "access_rules": []
+                    },
+                    {
+                        "name":"The Dragon Worshipers",
+                        "access_rules": []
+                    },
+                    {
+                        "name":"The Heirloom Armor",
+                        "access_rules": [
+                            "waterwalking"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Catpital Lake",
+                "map_locations": [
+                    {
+                        "map":"overworld",
+                        "x":1295,
+                        "y":2155
+                    }
+                ],
+                "sections":[
+                    {
+                        "name":"Blacksmith Assistance",
+                        "access_rules": []
+                    },
+                    {
+                        "name":"The Dragon and the Cat",
+                        "access_rules": []
+                    },
+                    {
+                        "name":"Blacksmith Apprentice",
+                        "access_rules": []
+                    },
+                    {
+                        "name":"Blacksmith Journeyman",
+                        "access_rules": []
+                    },
+                    {
+                        "name":"Blacksmith Master",
+                        "access_rules": []
+                    },
+                    {
+                        "name":"The Ultimate Dragonsbane",
+                        "access_rules": [
+                            "waterwalking"
+                        ]
+                    },
+                    {
+                        "name":"The Dragonsbane",
+                        "access_rules": [
+                            "waterwalking, flying"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Fishercat's Friend",
+                "map_locations": [
+                    {
+                        "map":"overworld",
+                        "x":1045,
+                        "y":1955
+                    }
+                ],
+                "sections":[
+                    {
+                        "name":"Meat Meat Meat",
+                        "access_rules": []
+                    },
+                    {
+                        "name":"Meatmeatmeatmea!!",
+                        "access_rules": []
+                    },
+                    {
+                        "name":"Meat Disposal Crew",
+                        "access_rules": []
+                    },
+                    {
+                        "name":"The Meat Seller",
+                        "access_rules": []
+                    },
+                    {
+                        "name":"The Second Day of Kitmas",
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Queen's Resort",
+                "map_locations": [
+                    {
+                        "map":"overworld",
+                        "x":1050,
+                        "y":1760
+                    }
+                ],
+                "sections":[
+                    {
+                        "name":"The First Day of Kitmas",
+                        "access_rules": []
+                    },
+                    {
+                        "name":"Everyone's Invited",
+                        "access_rules": [
+                            "flying"
+                        ]
+                    },
+                    {
+                        "name":"Mewry Kitmas",
+                        "access_rules": [
+                            "waterwalking"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Bermewda",
+                "map_locations": [
+                    {
+                        "map":"overworld",
+                        "x":1375,
+                        "y":1705
+                    }
+                ],
+                "sections":[
+                    {
+                        "name":"The Strange Charm",
+                        "access_rules": []
+                    },
+                    {
+                        "name":"The Escape",
+                        "access_rules": []
+                    },
+                    {
+                        "name":"The Sacrifice",
+                        "access_rules": []
+                    },
+                    {
+                        "name":"The Sanctuary",
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Founders Island",
+                "map_locations": [
+                    {
+                        "map":"overworld",
+                        "x":240,
+                        "y":1685
+                    }
+                ],
+                "sections":[
+                    {
+                        "name":"Golden Key",
+                        "access_rules": [
+                            "waterwalking",
+                            "flying"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "South of Queens Resort",
+                "map_locations": [
+                    {
+                        "map":"overworld",
+                        "x":810,
+                        "y":1850
+                    }
+                ],
+                "sections":[
+                    {
+                        "name":"The Dragonblood",
+                        "access_rules": [
+                            "waterwalking, flying"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Cat Grove",
+                "map_locations": [
+                    {
+                        "map":"overworld",
+                        "x":2170,
+                        "y":2690
+                    }
+                ],
+                "sections":[
+                    {
+                        "name":"The Servant of God",
+                        "access_rules": [
+                            "waterwalking",
+                            "flying"
+                        ]
+                    },
+                    {
+                        "name":"The Offerings",
+                        "access_rules": [
+                            "waterwalking"
+                        ]
+                    },
+                    {
+                        "name":"The Third Day of Kitmas",
+                        "access_rules": [
+                            "waterwalking"
+                        ]
+                    },
+                    {
+                        "name":"The Prayer",
+                        "access_rules": [
+                            "waterwalking"
+                        ]
+                    },
+                    {
+                        "name":"The Godcat, Mauth",
+                        "access_rules": [
+                            "waterwalking"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "West Pawt",
+                "map_locations": [
+                    {
+                        "map":"overworld",
+                        "x":430,
+                        "y":1465
+                    }
+                ],
+                "sections":[
+                    {
+                        "name":"The West Investigation",
+                        "access_rules": []
+                    },
+                    {
+                        "name":"The West Heist",
+                        "access_rules": []
+                    },
+                    {
+                        "name":"The Magic Lock",
+                        "access_rules": []
+                    },
+                    {
+                        "name":"The Revelation",
+                        "access_rules": []
+                    },
+                    {
+                        "name":"The Fourth Day of Kitmas",
+                        "access_rules": [
+                            "waterwalking"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Pawt City",
+                "map_locations": [
+                    {
+                        "map":"overworld",
+                        "x":95,
+                        "y":1300
+                    }
+                ],
+                "sections":[
+                    {
+                        "name":"Path to Water Walking",
+                        "access_rules": []
+                    },
+                    {
+                        "name":"The Fusion",
+                        "access_rules": []
+                    },
+                    {
+                        "name":"Rogue Mages",
+                        "access_rules": []
+                    },
+                    {
+                        "name":"The Miracle",
+                        "access_rules": [
+                            "waterwalking"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Winter's Edge",
+                "map_locations": [
+                    {
+                        "map":"overworld",
+                        "x":720,
+                        "y":635
+                    }
+                ],
+                "sections":[
+                    {
+                        "name":"The Missing Pages",
+                        "access_rules": []
+                    },
+                    {
+                        "name":"The Protected Pages",
+                        "access_rules": []
+                    },
+                    {
+                        "name":"The Runaway Archaeologist",
+                        "access_rules": []
+                    },
+                    {
+                        "name":"The Treasure",
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Final Rest",
+                "map_locations": [
+                    {
+                        "map":"overworld",
+                        "x":985,
+                        "y":820
+                    }
+                ],
+                "sections":[
+                    {
+                        "name":"The Furbidden History",
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Furbidden Fields",
+                "map_locations": [
+                    {
+                        "map":"overworld",
+                        "x":1250,
+                        "y":1110
+                    }
+                ],
+                "sections":[
+                    {
+                        "name":"The Old Ruins",
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Twin Towns - West",
+                "map_locations": [
+                    {
+                        "map":"overworld",
+                        "x":1690,
+                        "y":1660
+                    }
+                ],
+                "sections":[
+                    {
+                        "name":"The Catnip Cure",
+                        "access_rules": []
+                    },
+                    {
+                        "name":"The Knightmare",
+                        "access_rules": []
+                    },
+                    {
+                        "name":"The Book",
+                        "access_rules": []
+                    },
+                    {
+                        "name":"The Twin Resolution",
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Twin Towns - East",
+                "map_locations": [
+                    {
+                        "map":"overworld",
+                        "x":1837,
+                        "y":1630
+                    }
+                ],
+                "sections":[
+                    {
+                        "name":"The Catnip Cure Again",
+                        "access_rules": []
+                    },
+                    {
+                        "name":"The Knightmare Again",
+                        "access_rules": []
+                    },
+                    {
+                        "name":"The Book Again",
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "East Pawt",
+                "map_locations": [
+                    {
+                        "map":"overworld",
+                        "x":2100,
+                        "y":2045
+                    }
+                ],
+                "sections":[
+                    {
+                        "name":"The East Suspicion",
+                        "access_rules": []
+                    },
+                    {
+                        "name":"The East Shipment",
+                        "access_rules": []
+                    },
+                    {
+                        "name":"The East Escort",
+                        "access_rules": []
+                    },
+                    {
+                        "name":"The East Catfrontation",
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Old Masters Island",
+                "map_locations": [
+                    {
+                        "map":"overworld",
+                        "x":370,
+                        "y":2015
+                    }
+                ],
+                "sections":[
+                    {
+                        "name":"The Old Friend",
+                        "access_rules": [
+                            "waterwalking, flying"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Felingard Lake",
+                "map_locations": [
+                    {
+                        "map":"overworld",
+                        "x":660,
+                        "y":1250
+                    }
+                ],
+                "sections":[
+                    {
+                        "name":"Of Sea and Rock",
+                        "access_rules": [
+                            "waterwalking"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Frozen Paw",
+                "map_locations": [
+                    {
+                        "map":"overworld",
+                        "x":900,
+                        "y":475
+                    }
+                ],
+                "sections":[
+                    {
+                        "name":"Epilogue",
+                        "access_rules": []
+                    },
+                    {
+                        "name":"The Dragons Void",
+                        "access_rules": [
+                            "waterwalking, flying"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Windmew",
+                "map_locations": [
+                    {
+                        "map":"overworld",
+                        "x":2060,
+                        "y":460
+                    }
+                ],
+                "sections":[
+                    {
+                        "name":"The Flying Bush",
+                        "access_rules": [
+                            "waterwalking",
+                            "flying"
+                        ]
+                    },
+                    {
+                        "name":"The Magic Tree",
+                        "access_rules": [
+                            "waterwalking",
+                            "flying"
+                        ]
+                    },
+                    {
+                        "name":"The Cult",
+                        "access_rules": [
+                            "waterwalking",
+                            "flying"
+                        ]
+                    },
+                    {
+                        "name":"The Dragonflight",
+                        "access_rules": [
+                            "waterwalking",
+                            "flying"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Pawtato Farms",
+                "map_locations": [
+                    {
+                        "map":"overworld",
+                        "x":2310,
+                        "y":195
+                    }
+                ],
+                "sections":[
+                    {
+                        "name":"The Pawtato Mystery",
+                        "access_rules": [
+                            "waterwalking"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Death Isle",
+                "map_locations": [
+                    {
+                        "map":"overworld",
+                        "x":2355,
+                        "y":940
+                    }
+                ],
+                "sections":[
+                    {
+                        "name":"The Forgotten Hero",
+                        "access_rules": [
+                            "waterwalking",
+                            "flying"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Hilly Hills",
+                "map_locations": [
+                    {
+                        "map":"overworld",
+                        "x":2275,
+                        "y":1275
+                    }
+                ],
+                "sections":[
+                    {
+                        "name":"Of Sea and Rock",
+                        "access_rules": [
+                            "waterwalking, flying"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
