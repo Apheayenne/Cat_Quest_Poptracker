@@ -1,0 +1,2 @@
+.luarc.json export-ignore: true
+.vscode/* export-ignore: true
