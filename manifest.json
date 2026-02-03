@@ -6,7 +6,10 @@
     "platform": "PC",
     "variants": {
         "Standard": {
-            "display_name": "Standard"
+            "display_name": "Standard",
+            "flags": [
+                "ap"
+            ]
         }
     },
     "versions_url": "https://example.com/versions.json",

@@ -98,9 +98,7 @@
                     },
                     {
                         "name":"The Heirloom Armor",
-                        "access_rules": [
-                            "waterwalking"
-                        ]
+                        "access_rules": ["waterwalking"]
                     }
                 ]
             },
@@ -136,15 +134,11 @@
                     },
                     {
                         "name":"The Ultimate Dragonsbane",
-                        "access_rules": [
-                            "waterwalking"
-                        ]
+                        "access_rules": ["waterwalking"]
                     },
                     {
                         "name":"The Dragonsbane",
-                        "access_rules": [
-                            "waterwalking, flying"
-                        ]
+                        "access_rules": ["waterwalking, flying"]
                     }
                 ]
             },
@@ -196,15 +190,11 @@
                     },
                     {
                         "name":"Everyone's Invited",
-                        "access_rules": [
-                            "flying"
-                        ]
+                        "access_rules": ["flying"]
                     },
                     {
                         "name":"Mewry Kitmas",
-                        "access_rules": [
-                            "waterwalking"
-                        ]
+                        "access_rules": ["waterwalking"]
                     }
                 ]
             },
@@ -248,10 +238,7 @@
                 "sections":[
                     {
                         "name":"Golden Key",
-                        "access_rules": [
-                            "waterwalking",
-                            "flying"
-                        ]
+                        "access_rules": ["waterwalking","flying"]
                     }
                 ]
             },
@@ -267,9 +254,7 @@
                 "sections":[
                     {
                         "name":"The Dragonblood",
-                        "access_rules": [
-                            "waterwalking, flying"
-                        ]
+                        "access_rules": ["waterwalking, flying"]
                     }
                 ]
             },
@@ -285,34 +270,23 @@
                 "sections":[
                     {
                         "name":"The Servant of God",
-                        "access_rules": [
-                            "waterwalking",
-                            "flying"
-                        ]
+                        "access_rules": ["waterwalking","flying"]
                     },
                     {
                         "name":"The Offerings",
-                        "access_rules": [
-                            "waterwalking"
-                        ]
+                        "access_rules": ["waterwalking"]
                     },
                     {
                         "name":"The Third Day of Kitmas",
-                        "access_rules": [
-                            "waterwalking"
-                        ]
+                        "access_rules": ["waterwalking"]
                     },
                     {
                         "name":"The Prayer",
-                        "access_rules": [
-                            "waterwalking"
-                        ]
+                        "access_rules": ["waterwalking"]
                     },
                     {
                         "name":"The Godcat, Mauth",
-                        "access_rules": [
-                            "waterwalking"
-                        ]
+                        "access_rules": ["waterwalking"]
                     }
                 ]
             },
@@ -344,9 +318,7 @@
                     },
                     {
                         "name":"The Fourth Day of Kitmas",
-                        "access_rules": [
-                            "waterwalking"
-                        ]
+                        "access_rules": ["waterwalking"]
                     }
                 ]
             },
@@ -374,9 +346,7 @@
                     },
                     {
                         "name":"The Miracle",
-                        "access_rules": [
-                            "waterwalking"
-                        ]
+                        "access_rules": ["waterwalking"]
                     }
                 ]
             },
@@ -532,9 +502,7 @@
                 "sections":[
                     {
                         "name":"The Old Friend",
-                        "access_rules": [
-                            "waterwalking, flying"
-                        ]
+                        "access_rules": ["waterwalking, flying"]
                     }
                 ]
             },
@@ -550,9 +518,7 @@
                 "sections":[
                     {
                         "name":"Of Sea and Rock",
-                        "access_rules": [
-                            "waterwalking"
-                        ]
+                        "access_rules": ["waterwalking"]
                     }
                 ]
             },
@@ -572,9 +538,7 @@
                     },
                     {
                         "name":"The Dragons Void",
-                        "access_rules": [
-                            "waterwalking, flying"
-                        ]
+                        "access_rules": ["waterwalking, flying"]
                     }
                 ]
             },
@@ -590,31 +554,19 @@
                 "sections":[
                     {
                         "name":"The Flying Bush",
-                        "access_rules": [
-                            "waterwalking",
-                            "flying"
-                        ]
+                        "access_rules": ["waterwalking","flying"]
                     },
                     {
                         "name":"The Magic Tree",
-                        "access_rules": [
-                            "waterwalking",
-                            "flying"
-                        ]
+                        "access_rules": ["waterwalking","flying"]
                     },
                     {
                         "name":"The Cult",
-                        "access_rules": [
-                            "waterwalking",
-                            "flying"
-                        ]
+                        "access_rules": ["waterwalking","flying"]
                     },
                     {
                         "name":"The Dragonflight",
-                        "access_rules": [
-                            "waterwalking",
-                            "flying"
-                        ]
+                        "access_rules": ["waterwalking","flying"]
                     }
                 ]
             },
@@ -630,9 +582,7 @@
                 "sections":[
                     {
                         "name":"The Pawtato Mystery",
-                        "access_rules": [
-                            "waterwalking"
-                        ]
+                        "access_rules": ["waterwalking"]
                     }
                 ]
             },
@@ -648,10 +598,7 @@
                 "sections":[
                     {
                         "name":"The Forgotten Hero",
-                        "access_rules": [
-                            "waterwalking",
-                            "flying"
-                        ]
+                        "access_rules": ["waterwalking","flying"]
                     }
                 ]
             },
@@ -667,9 +614,7 @@
                 "sections":[
                     {
                         "name":"Of Sea and Rock",
-                        "access_rules": [
-                            "waterwalking, flying"
-                        ]
+                        "access_rules": ["waterwalking, flying"]
                     }
                 ]
             }

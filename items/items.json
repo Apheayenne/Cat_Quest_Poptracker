@@ -18,7 +18,7 @@
         "img":"images/Items/Lightnyan.png"
     },
     {
-        "name":"Healingpaw",
+        "name":"Healing Paw",
         "type":"toggle",
         "codes":"healingpaw",
         "img":"images/Items/HealingPaw.png"
@@ -36,13 +36,13 @@
         "img":"images/Items/Astropaw.png"
     },
     {
-        "name":"Waterwalking",
+        "name":"Royal Art of Water Walking",
         "type":"toggle",
         "codes":"waterwalking",
         "img":"images/Items/Waterwalking.png"
     },
     {
-        "name":"Flying",
+        "name":"Royal Art of Flight",
         "type":"toggle",
         "codes":"flying",
         "img":"images/Items/Flying.png"

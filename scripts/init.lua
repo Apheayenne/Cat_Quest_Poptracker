@@ -11,3 +11,6 @@ Tracker:AddLocations("locations/locations.json")
 
 -- Items
 Tracker:AddItems("items/items.json")
+
+-- Scripts
+ScriptHost:LoadScript("scripts/autotracking.lua")
