@@ -1,6 +1,8 @@
 [
     {
         "name": "Overworld",
+        "chest_unopened_img": "images/GoldChest.png",
+        "chest_opened_img": "images/Chest.png",
         "children": [
             {
                 "name": "Mewtown",
@@ -17,23 +19,23 @@
                         "access_rules": []
                     },
                     {
-                        "name":"The Growling Peasant",
+                        "name":"I. The Growling Peasant",
                         "access_rules": []
                     },
                     {
-                        "name":"The Catnip Ritual",
+                        "name":"II. The Catnip Ritual",
                         "access_rules": []
                     },
                     {
-                        "name":"The Circle",
+                        "name":"III. The Circle",
                         "access_rules": []
                     },
                     {
-                        "name":"Fur-reedom",
+                        "name":"IV. Fur-reedom!",
                         "access_rules": []
                     },
                     {
-                        "name":"The Whispurrer",
+                        "name":"V. The Whispurrer",
                         "access_rules": []
                     }
                 ]
@@ -49,27 +51,27 @@
                 ],
                 "sections":[
                     {
-                        "name":"The Catpital 1",
+                        "name":"The Catpital (1)",
                         "access_rules": []
                     },
                     {
-                        "name":"The King's Mage",
+                        "name":"I. The King's Mage",
                         "access_rules": []
                     },
                     {
-                        "name":"The Catpital 2",
+                        "name":"The Catpital (2)",
                         "access_rules": []
                     },
                     {
-                        "name":"The Mage Search",
+                        "name":"II. The Mage Search",
                         "access_rules": []
                     },
                     {
-                        "name":"The Spirits",
+                        "name":"III. The Spirits",
                         "access_rules": []
                     },
                     {
-                        "name":"The Lion King",
+                        "name":"IV. The Lion King",
                         "access_rules": []
                     }
                 ]
@@ -85,15 +87,15 @@
                 ],
                 "sections":[
                     {
-                        "name":"The Missing Soldiers",
+                        "name":"I. The Missing Soldiers",
                         "access_rules": []
                     },
                     {
-                        "name":"The Rescue",
+                        "name":"II. The Rescue",
                         "access_rules": []
                     },
                     {
-                        "name":"The Dragon Worshipers",
+                        "name":"The Dragon Worshippers",
                         "access_rules": []
                     },
                     {
@@ -113,7 +115,7 @@
                 ],
                 "sections":[
                     {
-                        "name":"Blacksmith Assistance",
+                        "name":"I. Blacksmith Assistance",
                         "access_rules": []
                     },
                     {
@@ -121,15 +123,15 @@
                         "access_rules": []
                     },
                     {
-                        "name":"Blacksmith Apprentice",
+                        "name":"II. Blacksmith Apprentice",
                         "access_rules": []
                     },
                     {
-                        "name":"Blacksmith Journeyman",
+                        "name":"III. Blacksmith Journeyman",
                         "access_rules": []
                     },
                     {
-                        "name":"Blacksmith Master",
+                        "name":"IV. Blacksmith Master",
                         "access_rules": []
                     },
                     {
@@ -153,19 +155,19 @@
                 ],
                 "sections":[
                     {
-                        "name":"Meat Meat Meat",
+                        "name":"I. Meat Meat Meat!",
                         "access_rules": []
                     },
                     {
-                        "name":"Meatmeatmeatmea!!",
+                        "name":"II. Meatmeatmeatmeat!!",
                         "access_rules": []
                     },
                     {
-                        "name":"Meat Disposal Crew",
+                        "name":"III. Meat Disposal Crew",
                         "access_rules": []
                     },
                     {
-                        "name":"The Meat Seller",
+                        "name":"IV. The Meat Seller",
                         "access_rules": []
                     },
                     {
@@ -189,11 +191,11 @@
                         "access_rules": []
                     },
                     {
-                        "name":"Everyone's Invited",
+                        "name":"Everyone's invited!",
                         "access_rules": ["flying"]
                     },
                     {
-                        "name":"Mewry Kitmas",
+                        "name":"Mewry Kitmas!",
                         "access_rules": ["waterwalking"]
                     }
                 ]
@@ -209,19 +211,19 @@
                 ],
                 "sections":[
                     {
-                        "name":"The Strange Charm",
+                        "name":"I. The Strange Charm",
                         "access_rules": []
                     },
                     {
-                        "name":"The Escape",
+                        "name":"II. The Escape",
                         "access_rules": []
                     },
                     {
-                        "name":"The Sacrifice",
+                        "name":"III. The Sacrifice",
                         "access_rules": []
                     },
                     {
-                        "name":"The Sanctuary",
+                        "name":"IV. The Sanctuary",
                         "access_rules": []
                     }
                 ]
@@ -237,7 +239,7 @@
                 ],
                 "sections":[
                     {
-                        "name":"Golden Key",
+                        "name":"The Golden Key",
                         "access_rules": ["waterwalking","flying"]
                     }
                 ]
@@ -269,11 +271,11 @@
                 ],
                 "sections":[
                     {
-                        "name":"The Servant of God",
+                        "name":"I. The Servant of God",
                         "access_rules": ["waterwalking","flying"]
                     },
                     {
-                        "name":"The Offerings",
+                        "name":"II. The Offerings",
                         "access_rules": ["waterwalking"]
                     },
                     {
@@ -281,11 +283,11 @@
                         "access_rules": ["waterwalking"]
                     },
                     {
-                        "name":"The Prayer",
+                        "name":"III. The Prayer",
                         "access_rules": ["waterwalking"]
                     },
                     {
-                        "name":"The Godcat, Mauth",
+                        "name":"IV. The Godcat, Mauth",
                         "access_rules": ["waterwalking"]
                     }
                 ]
@@ -301,19 +303,19 @@
                 ],
                 "sections":[
                     {
-                        "name":"The West Investigation",
+                        "name":"I. The West Investigation",
                         "access_rules": []
                     },
                     {
-                        "name":"The West Heist",
+                        "name":"II. The West Heist",
                         "access_rules": []
                     },
                     {
-                        "name":"The Magic Lock",
+                        "name":"III. The Magic Lock",
                         "access_rules": []
                     },
                     {
-                        "name":"The Revelation",
+                        "name":"IV. The Revelation",
                         "access_rules": []
                     },
                     {
@@ -333,19 +335,19 @@
                 ],
                 "sections":[
                     {
-                        "name":"Path to Water Walking",
+                        "name":"I. Path to Water Walking",
                         "access_rules": []
                     },
                     {
-                        "name":"The Fusion",
+                        "name":"II. The Fusion",
                         "access_rules": []
                     },
                     {
-                        "name":"Rogue Mages",
+                        "name":"III. Rogue Mages",
                         "access_rules": []
                     },
                     {
-                        "name":"The Miracle",
+                        "name":"IV. The Miracle",
                         "access_rules": ["waterwalking"]
                     }
                 ]
@@ -361,19 +363,19 @@
                 ],
                 "sections":[
                     {
-                        "name":"The Missing Pages",
+                        "name":"I. The Missing Pages",
                         "access_rules": []
                     },
                     {
-                        "name":"The Protected Pages",
+                        "name":"II. The Protected Pages",
                         "access_rules": []
                     },
                     {
-                        "name":"The Runaway Archaeologist",
+                        "name":"III. The Runaway Archeologist",
                         "access_rules": []
                     },
                     {
-                        "name":"The Treasure",
+                        "name":"IV. The Treasure",
                         "access_rules": []
                     }
                 ]
@@ -421,19 +423,19 @@
                 ],
                 "sections":[
                     {
-                        "name":"The Catnip Cure",
+                        "name":"I. The Catnip Cure",
                         "access_rules": []
                     },
                     {
-                        "name":"The Knightmare",
+                        "name":"II. The Knightmare",
                         "access_rules": []
                     },
                     {
-                        "name":"The Book",
+                        "name":"III. The Book",
                         "access_rules": []
                     },
                     {
-                        "name":"The Twin Resolution",
+                        "name":"IV. The Twin Resolution",
                         "access_rules": []
                     }
                 ]
@@ -449,15 +451,15 @@
                 ],
                 "sections":[
                     {
-                        "name":"The Catnip Cure Again",
+                        "name":"I. The Catnip Cure...again",
                         "access_rules": []
                     },
                     {
-                        "name":"The Knightmare Again",
+                        "name":"II. The Knightmare... again",
                         "access_rules": []
                     },
                     {
-                        "name":"The Book Again",
+                        "name":"III. The Book...again",
                         "access_rules": []
                     }
                 ]
@@ -473,19 +475,19 @@
                 ],
                 "sections":[
                     {
-                        "name":"The East Suspicion",
+                        "name":"I. The East Suspicion",
                         "access_rules": []
                     },
                     {
-                        "name":"The East Shipment",
+                        "name":"II. The East Shipment",
                         "access_rules": []
                     },
                     {
-                        "name":"The East Escort",
+                        "name":"III. The East Escort",
                         "access_rules": []
                     },
                     {
-                        "name":"The East Catfrontation",
+                        "name":"IV. The East Catfrontation",
                         "access_rules": []
                     }
                 ]
@@ -517,7 +519,7 @@
                 ],
                 "sections":[
                     {
-                        "name":"Of Sea and Rock",
+                        "name":"Of Sea and Rock (1)",
                         "access_rules": ["waterwalking"]
                     }
                 ]
@@ -553,19 +555,19 @@
                 ],
                 "sections":[
                     {
-                        "name":"The Flying Bush",
+                        "name":"I. The Flying Bush",
                         "access_rules": ["waterwalking","flying"]
                     },
                     {
-                        "name":"The Magic Tree",
+                        "name":"II. The Magic Tree",
                         "access_rules": ["waterwalking","flying"]
                     },
                     {
-                        "name":"The Cult",
+                        "name":"III. The Cult",
                         "access_rules": ["waterwalking","flying"]
                     },
                     {
-                        "name":"The Dragonflight",
+                        "name":"IV. Dragonflight",
                         "access_rules": ["waterwalking","flying"]
                     }
                 ]
@@ -613,7 +615,7 @@
                 ],
                 "sections":[
                     {
-                        "name":"Of Sea and Rock",
+                        "name":"Of Sea and Rock (2)",
                         "access_rules": ["waterwalking, flying"]
                     }
                 ]

@@ -36,6 +36,12 @@
         "img":"images/Items/Astropaw.png"
     },
     {
+        "name":"Cattrap",
+        "type":"toggle",
+        "codes":"cattrap",
+        "img":"images/Items/Cattrap.png"
+    },
+    {
         "name":"Royal Art of Water Walking",
         "type":"toggle",
         "codes":"waterwalking",
