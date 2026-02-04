@@ -1,6 +1,6 @@
 -- Configuration --------------------------------------
-AUTOTRACKER_ENABLE_DEBUG_LOGGING = true or ENABLE_DEBUG_LOG
-AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP = true
+AUTOTRACKER_ENABLE_DEBUG_LOGGING = true
+AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP = false
 AUTOTRACKER_ENABLE_ITEM_TRACKING = true
 AUTOTRACKER_ENABLE_LOCATION_TRACKING = true
 -------------------------------------------------------
@@ -118,6 +118,11 @@ function OnItem(index, item_id, item_name, player_number)
 	end
 
     local obj = Tracker:FindObjectForCode(v[1])
+    if not obj then
+        DebugAP(string.format("onItem: could not find object for code <%s>", v[1]))
+        return
+    end
+    
     if v[2] == "toggle" then
         obj.Active = true
     elseif v[2] == "progressive" then
@@ -154,17 +159,17 @@ function OnLocation(index, location_id, location_name)
     end
 
     local obj = Tracker:FindObjectForCode(v[1])
-    --DebugAP(string.format("onLocation: found object <%s> for code <%s>", tostring(obj), v[1]))
+    DebugAP(string.format("onLocation: found object <%s> for code <%s>", tostring(obj), v[1]))
     if obj then
         if v[1]:sub(1, 1) == "@" then
-            --DebugAP(string.format("onLocation: activated object for code <%s>", v[1]))
+            DebugAP(string.format("onLocation: activated object for code <%s>", v[1]))
 			obj.AvailableChestCount = obj.AvailableChestCount - 1
-            --DebugAP(string.format("Total Chest Count <%s> available <%s>", obj.ChestCount, obj.AvailableChestCount))
+            DebugAP(string.format("Total Chest Count <%s> available <%s>", obj.ChestCount, obj.AvailableChestCount))
 		else
 			obj.Active = true
 		end
     else
-        --DebugAP(string.format("onLocation: could not find object for code <%s>", v[1]))
+        DebugAP(string.format("onLocation: could not find object for code <%s>", v[1]))
     end
 end
 
