@@ -1,0 +1,10 @@
+{
+	"versions": [
+		{
+			"package_version": "0.1.0",
+			"download_url": "https://github.com/OmegaZeron/Oracle-of-Seasons-AP-Poptracker-Pack/releases/download/6.0.6/seasons_ap.zip",
+			"sha256": "???",
+			"changelog": ["Added Tracker"]
+		}
+    ]
+}
