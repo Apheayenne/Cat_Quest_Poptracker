@@ -2,8 +2,8 @@
 	"versions": [
 		{
 			"package_version": "0.1.0",
-			"download_url": "https://github.com/OmegaZeron/Oracle-of-Seasons-AP-Poptracker-Pack/releases/download/6.0.6/seasons_ap.zip",
-			"sha256": "???",
+			"download_url": "https://github.com/Apheayenne/Cat_Quest_Poptracker/releases/download/v0.1.0-Release/Cat_Quest_Poptracker.zip",
+			"sha256": "f1aa15d33c4db86c33f9e12810335324e1fd4820350d607cc962652b361d8bb3",
 			"changelog": ["Added Tracker"]
 		}
     ]
