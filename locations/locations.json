@@ -2,7 +2,7 @@
     {
         "name": "Overworld",
         "chest_unopened_img": "images/GoldChest.png",
-        "chest_opened_img": "images/Chest.png",
+        "chest_opened_img": "images/Overleveled.png",
         "children": [
             {
                 "name": "Mewtown",
