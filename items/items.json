@@ -70,5 +70,10 @@
         "type":"toggle",
         "codes":"ruin_setting",
         "img":"images/Settings/RuinSetting.png"
+    },
+    {
+        "name":"Invisible Item",
+        "type":"toggle",
+        "codes":"invisible_item"
     }
 ]

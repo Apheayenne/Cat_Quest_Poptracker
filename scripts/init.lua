@@ -14,3 +14,4 @@ Tracker:AddItems("items/items.json")
 
 -- Scripts
 ScriptHost:LoadScript("scripts/autotracking.lua")
+ScriptHost:LoadScript("scripts/logic.lua")
