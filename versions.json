@@ -1,5 +1,12 @@
 {
+
 	"versions": [
+		{
+			"package_version": "1.0.1",
+			"download_url": "https://github.com/Apheayenne/Cat_Quest_Poptracker/releases/download/v1.0.1_Release/Cat_Quest_Poptracker.zip",
+			"sha256": "8fa75fb64f07bfb532195d7bda25bb4f4fa195e6f942e87d260927f690da7e4d",
+			"changelog": ["Added Autotracking", "Added questline handling"]
+		},
 		{
 			"package_version": "1.0.0",
 			"download_url": "https://github.com/Apheayenne/Cat_Quest_Poptracker/releases/download/v1.0.0_Release/Cat_Quest_Poptracker.zip",
