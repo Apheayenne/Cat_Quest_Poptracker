@@ -18,7 +18,7 @@
         "img":"images/Items/Lightnyan.png"
     },
     {
-        "name":"Healingpaw",
+        "name":"Healing Paw",
         "type":"toggle",
         "codes":"healingpaw",
         "img":"images/Items/HealingPaw.png"
@@ -36,13 +36,19 @@
         "img":"images/Items/Astropaw.png"
     },
     {
-        "name":"Waterwalking",
+        "name":"Cattrap",
+        "type":"toggle",
+        "codes":"cattrap",
+        "img":"images/Items/Cattrap.png"
+    },
+    {
+        "name":"Royal Art of Water Walking",
         "type":"toggle",
         "codes":"waterwalking",
         "img":"images/Items/Waterwalking.png"
     },
     {
-        "name":"Flying",
+        "name":"Royal Art of Flight",
         "type":"toggle",
         "codes":"flying",
         "img":"images/Items/Flying.png"
@@ -64,5 +70,10 @@
         "type":"toggle",
         "codes":"ruin_setting",
         "img":"images/Settings/RuinSetting.png"
+    },
+    {
+        "name":"Invisible Item",
+        "type":"toggle",
+        "codes":"invisible_item"
     }
 ]
