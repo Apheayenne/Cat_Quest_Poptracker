@@ -2,7 +2,7 @@
     "name": "Cat_Quest_PopTracker",
     "game_name": "Cat Quest",
     "package_uid": "cat_quest_pt",
-    "package_version": "1.0.0",
+    "package_version": "1.0.1",
     "platform": "PC",
     "variants": {
         "Standard": {
