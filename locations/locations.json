@@ -1,8 +1,8 @@
 [
     {
         "name": "Overworld",
-        "chest_unopened_img": "images/GoldChest.png",
-        "chest_opened_img": "images/Overleveled.png",
+        "chest_unopened_img": "images/LocationOpen.png",
+        "chest_opened_img": "images/LocationComplete.png",
         "children": [
             {
                 "name": "Mewtown",
@@ -160,19 +160,27 @@
                     },
                     {
                         "name":"II. Meatmeatmeatmeat!!",
-                        "access_rules": ["$locationChecked|Fishercat's Friend/I. Meat Meat Meat!"]
+                        "access_rules": [
+                            "$locationChecked|Fishercat's Friend/I. Meat Meat Meat!"
+                        ]
                     },
                     {
                         "name":"III. Meat Disposal Crew",
-                        "access_rules": ["$locationChecked|Fishercat's Friend/II. Meatmeatmeatmeat!!"]
+                        "access_rules": [
+                            "$locationChecked|Fishercat's Friend/II. Meatmeatmeatmeat!!"
+                        ]
                     },
                     {
                         "name":"IV. The Meat Seller",
-                        "access_rules": ["$locationChecked|Fishercat's Friend/III. Meat Disposal Crew"]
+                        "access_rules": [
+                            "$locationChecked|Fishercat's Friend/III. Meat Disposal Crew"
+                        ]
                     },
                     {
                         "name":"The Second Day of Kitmas",
-                        "access_rules": ["$locationChecked|Queen's Resort/The First Day of Kitmas"]
+                        "access_rules": [
+                            "$locationChecked|Queen's Resort/The First Day of Kitmas"
+                        ]
                     }
                 ]
             },
@@ -197,8 +205,7 @@
                     {
                         "name":"Mewry Kitmas!",
                         "access_rules": [
-                            "waterwalking", 
-                            "$locationChecked|West Pawt/The Fourth Day of Kitmas"
+                            "waterwalking, $locationChecked|West Pawt/The Fourth Day of Kitmas"
                         ]
                     }
                 ]
@@ -219,15 +226,21 @@
                     },
                     {
                         "name":"II. The Escape",
-                        "access_rules": ["$locationChecked|Bermewda/I. The Strange Charm"]
+                        "access_rules": [
+                            "$locationChecked|Bermewda/I. The Strange Charm"
+                        ]
                     },
                     {
                         "name":"III. The Sacrifice",
-                        "access_rules": ["$locationChecked|Bermewda/II. The Escape"]
+                        "access_rules": [
+                            "$locationChecked|Bermewda/II. The Escape"
+                        ]
                     },
                     {
                         "name":"IV. The Sanctuary",
-                        "access_rules": ["$locationChecked|Bermewda/III. The Sacrifice"]
+                        "access_rules": [
+                            "$locationChecked|Bermewda/III. The Sacrifice"
+                        ]
                     }
                 ]
             },
