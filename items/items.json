@@ -1,9 +1,9 @@
 [
     {
-        "name":"Flamepaw",
+        "name":"Flamepurr",
         "type":"toggle",
-        "codes":"flamepaw",
-        "img":"images/Items/Flamepaw.png"
+        "codes":"flamepurr",
+        "img":"images/Items/Flamepurr.png"
     },
     {
         "name":"Freezepaw",
@@ -58,6 +58,76 @@
         "type":"toggle",
         "codes":"goldkey",
         "img":"images/Items/GoldenKey.png"
+    },
+    {
+        "name":"50 Gold",
+        "type":"toggle",
+        "codes":"50 Gold"
+    },
+    {
+        "name":"500 Gold",
+        "type":"toggle",
+        "codes":"500 Gold"
+    },
+    {
+        "name":"750 Gold",
+        "type":"toggle",
+        "codes":"750 Gold"
+    },
+    {
+        "name":"1000 Gold",
+        "type":"toggle",
+        "codes":"1000 Gold"
+    },
+    {
+        "name":"5000 Gold",
+        "type":"toggle",
+        "codes":"5000 Gold"
+    },
+    {
+        "name":"10K Gold",
+        "type":"toggle",
+        "codes":"10K Gold"
+    },
+    {
+        "name":"500 EXP",
+        "type":"toggle",
+        "codes":"500 EXP"
+    },
+    {
+        "name":"1000 EXP",
+        "type":"toggle",
+        "codes":"500 EXP"
+    },
+    {
+        "name":"5000 EXP",
+        "type":"toggle",
+        "codes":"5000 EXP"
+    },
+    {
+        "name":"7500 EXP",
+        "type":"toggle",
+        "codes":"7500 EXP"
+    },
+    {
+        "name":"10K EXP",
+        "type":"toggle",
+        "codes":"10K EXP"
+    },
+    {
+        "name":"20K EXP",
+        "type":"toggle",
+        "codes":"20K EXP"
+    },
+    {
+        "name":"50K EXP",
+        "type":"toggle",
+        "codes":"50K EXP"
+    },
+    {
+        "name":"100K EXP",
+        "type":"toggle",
+        "codes":"100K EXP"
     },
     {
         "name":"Toggle Cave Setting",
