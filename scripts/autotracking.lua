@@ -1,6 +1,6 @@
 -- Configuration --------------------------------------
 AUTOTRACKER_ENABLE_DEBUG_LOGGING = true
-AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP = false
+AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP = true
 AUTOTRACKER_ENABLE_ITEM_TRACKING = true
 AUTOTRACKER_ENABLE_LOCATION_TRACKING = true
 -------------------------------------------------------
@@ -19,7 +19,7 @@ function DebugLog()
 	print("Enable Location Tracking:	", AUTOTRACKER_ENABLE_LOCATION_TRACKING)
 	if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
 		print("Enable Debug Logging:		", AUTOTRACKER_ENABLE_DEBUG_LOGGING)
-		print("Enable AP Debug Logging:		", AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP)
+		print("Enable AP Debug Logging:     ", AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP)
 	end
 	print("---------------------------------------------------------------------")
 	print("")
@@ -52,10 +52,10 @@ function Dump_table(o, depth)
 end
 
 function OnClear(slot_data)
+    DebugAP("") -- Blank line for readability
     DebugAP(string.format("called onClear, slot_data:\n<%s>", Dump_table(slot_data)))
     print(Dump_table(SLOT_DATA))
     SLOT_DATA = slot_data
-    CUR_INDEX = -1
     
     for _, v in pairs(LOCATION_MAPPINGS) do
         if v[1] then
@@ -94,16 +94,19 @@ function OnClear(slot_data)
 end
 
 function OnItem(index, item_id, item_name, player_number)
+    DebugAP("") -- Blank line for readability
+    DebugAP(string.format("OnItem called with index <%s>, item_id <%s>, item_name <%s>, player_number <%s>", index, item_id, item_name, player_number))
+
     if not AUTOTRACKER_ENABLE_ITEM_TRACKING then
+        DebugAP(string.format("AUTOTRACKER_ENABLE_ITEM_TRACKING = <%s>", AUTOTRACKER_ENABLE_ITEM_TRACKING))
 		return
 	end
     
     if index <= CUR_INDEX then
+        DebugAP(string.format("Returning Index already processed: index <%s> <= CUR_INDEX <%s>", index, CUR_INDEX))
 		return
 	end
 	
-    DebugAP(string.format("OnItem called with index <%s>, item_id <%s>, item_name <%s>, player_number <%s>", index, item_id, item_name, player_number))
-
     CUR_INDEX = index;
 	local v = ITEM_MAPPINGS[item_id]
 
@@ -136,43 +139,47 @@ function OnItem(index, item_id, item_name, player_number)
 end
 
 function OnLocation(index, location_id, location_name)
-    DebugAP("")
+    DebugAP("") -- Blank line for readability
     if not AUTOTRACKER_ENABLE_LOCATION_TRACKING then
 		return
 	end
     
     DebugAP(string.format("OnLocation called with index <%s>, location_id <%s>, location_name <%s>", index, location_id, location_name))
 
-    CUR_INDEX = index;
     local v = LOCATION_MAPPINGS[index]
 
-    DebugAP(string.format("onLocation: value <%s>", v[1]))
+    --//DebugAP(string.format("onLocation: value <%s>", v[1]))
 
     if not v then
-        DebugAP(string.format("onLocation: could not find location mapping for id <%s>", location_id))
+        --//DebugAP(string.format("onLocation: could not find location mapping for id <%s>", location_id))
         return
     end
 
     if not v[1] then
-        DebugAP(string.format("onLocation: no code for location id <%s>", location_id))
+        --//DebugAP(string.format("onLocation: no code for location id <%s>", location_id))
         return
     end
 
     local obj = Tracker:FindObjectForCode(v[1])
-    DebugAP(string.format("onLocation: found object <%s> for code <%s>", tostring(obj), v[1]))
+    --//DebugAP(string.format("onLocation: found object <%s> for code <%s>", tostring(obj), v[1]))
     if obj then
         if v[1]:sub(1, 1) == "@" then
-            DebugAP(string.format("onLocation: activated object for code <%s>", v[1]))
+            --//DebugAP(string.format("onLocation: activated object for code <%s>", v[1]))
 			obj.AvailableChestCount = obj.AvailableChestCount - 1
-            DebugAP(string.format("Total Chest Count <%s> available <%s>", obj.ChestCount, obj.AvailableChestCount))
+            --//DebugAP(string.format("Total Chest Count <%s> available <%s>", obj.ChestCount, obj.AvailableChestCount))
 		else
 			obj.Active = true
 		end
     else
-        DebugAP(string.format("onLocation: could not find object for code <%s>", v[1]))
+        --//DebugAP(string.format("onLocation: could not find object for code <%s>", v[1]))
     end
 end
 
+--DebugLog()
+
+DebugAP("================================== Clearing Everything ==================================")
 Archipelago:AddClearHandler("clear handler", OnClear)
-Archipelago:AddItemHandler("item handler", OnItem)
+DebugAP("================================== Location Handler ==================================")
 Archipelago:AddLocationHandler("location handler", OnLocation)
+DebugAP("================================== Item Handler ==================================")
+Archipelago:AddItemHandler("item handler", OnItem)
