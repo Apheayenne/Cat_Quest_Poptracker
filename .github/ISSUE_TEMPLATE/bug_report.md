@@ -7,6 +7,9 @@ assignees: Apheayenne
 
 ---
 
+**Pack Version**
+What version of the poptracker pack are you using?
+
 **Describe the bug**
 A clear and concise description of what the bug is.
 
