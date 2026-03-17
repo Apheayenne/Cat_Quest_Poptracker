@@ -5,17 +5,16 @@
             {
                 "type": "itemgrid",
                 "h_alignment": "center",
-                "item_size": 64,
+                "item_size": 48,
                 "item_margin": "1,1",
-                "margin": "1,1,1,1",
-                "item_h_alignment": "center",
+                "item_h_alignment": "center", 
                 "item_v_alignment": "center",
                 "rows":[
-                    ["flamepurr", "freezepaw"],
-                    ["lightnyan", "healingpaw"],
-                    ["purrserk", "astropaw"],
-                    ["waterwalking", "flying"],
-                    ["goldkey"]
+                    ["flamepurrProg",   "flamepurrUpgrade", "freezepawProg",   "freezepawUpgrade"],
+                    ["lightnyanProg",   "lightnyanUpgrade", "healingpawProg",  "healingpawUpgrade"],
+                    ["purrserkProg",    "purrserkUpgrade",  "astropawProg",    "astropawUpgrade"],
+                    ["cattrapProg",     "cattrapUpgrade"],
+                    ["waterwalking",    "flying",           "goldkey"]
                 ]
             }
         ]
@@ -26,13 +25,17 @@
             {
                 "type": "itemgrid",
 				"h_alignment": "center",
-                "item_size": 64,
-                "item_margin": "1,1",
-                "margin": "1,1,1,1",
+                "item_size": "64, 32",
+                "item_margin": "20,1",
                 "item_h_alignment": "center",
                 "item_v_alignment": "center",
                 "rows":[
-                    ["cave_setting", "ruin_setting"]
+                    ["500G",    "1000xp"],
+                    ["750G",    "5000xp"],
+                    ["1000G",   "7500xp"],
+                    ["5000G",   "10Kxp"],
+                    ["",        "20Kxp"]
+
                 ]
             }
         ]
