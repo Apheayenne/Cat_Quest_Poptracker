@@ -1,0 +1,158 @@
+[
+    {
+        "name": "Toggle Monuments",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "name": "Monuments Disabled",
+                "codes": "monuments, monumentoff",
+                "img": "images/Settings/MonumentsOff.png",
+                "inherent_codes": false
+            },
+            {
+                "name": "Monuments Enabled",
+                "codes": "monuments, monumenton",
+                "img": "images/Settings/MonumentsOn.png",
+                "inherent_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Toggle Temples",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "name": "Temples Disabled",
+                "codes": "temples, templeoff",
+                "img": "images/Settings/TemplesOff.png",
+                "inherent_codes": false
+            },
+            {
+                "name": "Temples Enabled",
+                "codes": "temples, templeon",
+                "img": "images/Settings/TemplesOn.png",
+                "inherent_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Toggle Goals",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "name": "Goal - Main Quest",
+                "codes": "goals, goalsMQ",
+                "img": "images/Settings/Goal-MainQuest.png",
+                "inherent_codes": false
+            },
+            {
+                "name": "Goal - Questsanity",
+                "codes": "goals, goalsQS",
+                "img": "images/Settings/Goal-Questsanity.png",
+                "inherent_codes": false
+            },
+            {
+                "name": "Goal - Max Level",
+                "codes": "goals, goalsML",
+                "img": "images/Settings/Goal-MaxLevel.png",
+                "inherent_codes": false
+            },
+            {
+                "name": "Goal - Max Level+Main Quest",
+                "codes": "goals, goalsMLMQ",
+                "img": "images/Settings/Goal-MaxLevelMainQuest.png",
+                "inherent_codes": false
+            },
+            {
+                "name": "Goal - Spellmastery",
+                "codes": "goals, goalsSM",
+                "img": "images/Settings/Goal-Spellmastery.png",
+                "inherent_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Toggle Skill Upgrades",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "name": "Skill Upgrade - Coins",
+                "codes": "skills, skillsCoin",
+                "img": "images/Settings/Skills-Coins.png",
+                "inherent_codes": false
+            },
+            {
+                "name": "Skill Upgrade - Progressive",
+                "codes": "skills, skillsProgressive",
+                "img": "images/Settings/Skills-Progressive.png",
+                "inherent_codes": false
+            },
+            {
+                "name": "Skill Upgrade - Upgrades",
+                "codes": "skills, skillsUpgrades",
+                "img": "images/Settings/Skills-Upgrades.png",
+                "inherent_codes": false
+            },
+            {
+                "name": "Skill Upgrade - Magic Levels",
+                "codes": "skills, skillsMagicLevels",
+                "img": "images/Settings/Skills-MagicLevel.png",
+                "inherent_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Toggle Coin Rewards",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "name": "Coin Rewards Disabled",
+                "codes": "coinRewards, coinRewardsOff",
+                "img": "images/Settings/CoinRewardsOff.png",
+                "inherent_codes": false
+            },
+            {
+                "name": "Coin Rewards Enabled",
+                "codes": "coinRewards, coinRewardsOn",
+                "img": "images/Settings/CoinRewardsOn.png",
+                "inherent_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Toggle EXP Rewards",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "name": "EXP Rewards Disabled",
+                "codes": "expRewards, expRewardsOff",
+                "img": "images/Settings/expRewardsOff.png",
+                "inherent_codes": false
+            },
+            {
+                "name": "EXP Rewards Enabled",
+                "codes": "expRewards, expRewardsOn",
+                "img": "images/Settings/expRewardsOn.png",
+                "inherent_codes": false
+            }
+        ]
+    }
+]

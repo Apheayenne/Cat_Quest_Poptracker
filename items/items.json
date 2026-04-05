@@ -2,44 +2,136 @@
     {
         "name":"Flamepurr",
         "type":"toggle",
-        "codes":"flamepurr",
+        "codes":"flamepurrProg",
         "img":"images/Items/Flamepurr.png"
+    },
+    {
+        "name":"Flamepurr Upgrade",
+        "type":"consumable",
+        "codes":"flamepurrUpgrade",
+        "img":"images/Items/Flamepurr.png",
+        "initial_quantity": 0,
+        "min_quantity": 0,
+        "max_quantity": 9,
+        "increment": 1,
+        "decrement": 1,
+        "overlay_background": "#000000",
+        "overlay_font_size": 16
     },
     {
         "name":"Freezepaw",
         "type":"toggle",
-        "codes":"freezepaw",
+        "codes":"freezepawProg",
         "img":"images/Items/Freezepaw.png"
+    },
+    {
+        "name":"Freezepaw Upgrade",
+        "type":"consumable",
+        "codes":"freezepawUpgrade",
+        "img":"images/Items/Freezepaw.png",
+        "initial_quantity": 0,
+        "min_quantity": 0,
+        "max_quantity": 9,
+        "increment": 1,
+        "decrement": 1,
+        "overlay_background": "#000000",
+        "overlay_font_size": 16
     },
     {
         "name":"Lightnyan",
         "type":"toggle",
-        "codes":"lightnyan",
+        "codes":"lightnyanProg",
         "img":"images/Items/Lightnyan.png"
     },
     {
+        "name":"Lightnyan Upgrade",
+        "type":"consumable",
+        "codes":"lightnyanUpgrade",
+        "img":"images/Items/Lightnyan.png",
+        "initial_quantity": 0,
+        "min_quantity": 0,
+        "max_quantity": 9,
+        "increment": 1,
+        "decrement": 1,
+        "overlay_background": "#000000",
+        "overlay_font_size": 16
+    },
+    
+    {
         "name":"Healing Paw",
         "type":"toggle",
-        "codes":"healingpaw",
+        "codes":"healingpawProg",
         "img":"images/Items/HealingPaw.png"
+    },
+    {
+        "name":"Healing Paw Upgrade",
+        "type":"consumable",
+        "codes":"healingpawUpgrade",
+        "img":"images/Items/HealingPaw.png",
+        "initial_quantity": 0,
+        "min_quantity": 0,
+        "max_quantity": 9,
+        "increment": 1,
+        "decrement": 1,
+        "overlay_background": "#000000",
+        "overlay_font_size": 16
     },
     {
         "name":"Purrserk",
         "type":"toggle",
-        "codes":"purrserk",
+        "codes":"purrserkProg",
         "img":"images/Items/Purrserk.png"
+    },
+    {
+        "name":"Purrserk Upgrade",
+        "type":"consumable",
+        "codes":"purrserkUpgrade",
+        "img":"images/Items/Purrserk.png",
+        "initial_quantity": 0,
+        "min_quantity": 0,
+        "max_quantity": 9,
+        "increment": 1,
+        "decrement": 1,
+        "overlay_background": "#000000",
+        "overlay_font_size": 16
     },
     {
         "name":"Astropaw",
         "type":"toggle",
-        "codes":"astropaw",
+        "codes":"astropawProg",
         "img":"images/Items/Astropaw.png"
+    },
+    {
+        "name":"Astropaw Upgrade",
+        "type":"consumable",
+        "codes":"astropawUpgrade",
+        "img":"images/Items/Astropaw.png",
+        "initial_quantity": 0,
+        "min_quantity": 0,
+        "max_quantity": 9,
+        "increment": 1,
+        "decrement": 1,
+        "overlay_background": "#000000",
+        "overlay_font_size": 16
     },
     {
         "name":"Cattrap",
         "type":"toggle",
-        "codes":"cattrap",
+        "codes":"cattrapProg",
         "img":"images/Items/Cattrap.png"
+    },
+    {
+        "name":"Cattrap Upgrade",
+        "type":"consumable",
+        "codes":"cattrapUpgrade",
+        "img":"images/Items/Cattrap.png",
+        "initial_quantity": 0,
+        "min_quantity": 0,
+        "max_quantity": 9,
+        "increment": 1,
+        "decrement": 1,
+        "overlay_background": "#000000",
+        "overlay_font_size": 16
     },
     {
         "name":"Royal Art of Water Walking",
@@ -60,74 +152,112 @@
         "img":"images/Items/GoldenKey.png"
     },
     {
-        "name":"50 Gold",
-        "type":"toggle",
-        "codes":"50 Gold"
-    },
-    {
         "name":"500 Gold",
-        "type":"toggle",
-        "codes":"500 Gold"
+        "type":"consumable",
+        "codes":"500G",
+        "img":"images/Exp-Gold/500Gold.png",
+        "initial_quantity": 0,
+        "min_quantity": 0,
+        "max_quantity": -1,
+        "increment": 1,
+        "overlay_background": "#000000",
+        "overlay_font_size": 12
     },
     {
         "name":"750 Gold",
-        "type":"toggle",
-        "codes":"750 Gold"
+        "type":"consumable",
+        "codes":"750G",
+        "img":"images/Exp-Gold/750Gold.png",
+        "initial_quantity": 0,
+        "min_quantity": 0,
+        "max_quantity": -1,
+        "increment": 1,
+        "overlay_background": "#000000",
+        "overlay_font_size": 12
     },
     {
         "name":"1000 Gold",
-        "type":"toggle",
-        "codes":"1000 Gold"
+        "type":"consumable",
+        "codes":"1000G",
+        "img":"images/Exp-Gold/1000Gold.png",
+        "initial_quantity": 0,
+        "min_quantity": 0,
+        "max_quantity": -1,
+        "increment": 1,
+        "overlay_background": "#000000",
+        "overlay_font_size": 12
     },
     {
         "name":"5000 Gold",
-        "type":"toggle",
-        "codes":"5000 Gold"
-    },
-    {
-        "name":"10K Gold",
-        "type":"toggle",
-        "codes":"10K Gold"
-    },
-    {
-        "name":"500 EXP",
-        "type":"toggle",
-        "codes":"500 EXP"
+        "type":"consumable",
+        "codes":"5000G",
+        "img":"images/Exp-Gold/5000Gold.png",
+        "initial_quantity": 0,
+        "min_quantity": 0,
+        "max_quantity": -1,
+        "increment": 1,
+        "overlay_background": "#000000",
+        "overlay_font_size": 12
     },
     {
         "name":"1000 EXP",
-        "type":"toggle",
-        "codes":"500 EXP"
+        "type":"consumable",
+        "codes":"1000xp",
+        "img":"images/Exp-Gold/1000Exp.png",
+        "initial_quantity": 0,
+        "min_quantity": 0,
+        "max_quantity": -1,
+        "increment": 1,
+        "overlay_background": "#000000",
+        "overlay_font_size": 12
     },
     {
         "name":"5000 EXP",
-        "type":"toggle",
-        "codes":"5000 EXP"
+        "type":"consumable",
+        "codes":"5000xp",
+        "img":"images/Exp-Gold/5000Exp.png",
+        "initial_quantity": 0,
+        "min_quantity": 0,
+        "max_quantity": -1,
+        "increment": 1,
+        "overlay_background": "#000000",
+        "overlay_font_size": 12
     },
     {
         "name":"7500 EXP",
-        "type":"toggle",
-        "codes":"7500 EXP"
+        "type":"consumable",
+        "codes":"7500xp",
+        "img":"images/Exp-Gold/7500Exp.png",
+        "initial_quantity": 0,
+        "min_quantity": 0,
+        "max_quantity": -1,
+        "increment": 1,
+        "overlay_background": "#000000",
+        "overlay_font_size": 12
     },
     {
         "name":"10K EXP",
-        "type":"toggle",
-        "codes":"10K EXP"
+        "type":"consumable",
+        "codes":"10Kxp",
+        "img":"images/Exp-Gold/10KExp.png",
+        "initial_quantity": 0,
+        "min_quantity": 0,
+        "max_quantity": -1,
+        "increment": 1,
+        "overlay_background": "#000000",
+        "overlay_font_size": 12
     },
     {
         "name":"20K EXP",
-        "type":"toggle",
-        "codes":"20K EXP"
-    },
-    {
-        "name":"50K EXP",
-        "type":"toggle",
-        "codes":"50K EXP"
-    },
-    {
-        "name":"100K EXP",
-        "type":"toggle",
-        "codes":"100K EXP"
+        "type":"consumable",
+        "codes":"20Kxp",
+        "img":"images/Exp-Gold/20KExp.png",
+        "initial_quantity": 0,
+        "min_quantity": 0,
+        "max_quantity": -1,
+        "increment": 1,
+        "overlay_background": "#000000",
+        "overlay_font_size": 12
     },
     {
         "name":"Toggle Cave Setting",

@@ -1,51 +1,59 @@
-BASE = 123000
+BASE = 0
+--BASE = 123000
 
 ITEM_MAPPINGS = {
-    [BASE + 1] = {"waterwalking", "toggle"},
-    [BASE + 2] = {"flying", "toggle"},
+    -- Gold
+    [BASE + 1] = {"500G", "consumable"},
+    [BASE + 2] = {"750G", "consumable"},
+    [BASE + 3] = {"1000G", "consumable"},
+    [BASE + 4] = {"5000G", "consumable"},
+
+        -- Exp
+    [BASE + 5] = {"1000xp", "consumable"},
+    [BASE + 6] = {"5000xp", "consumable"},
+    [BASE + 7] = {"7500xp", "consumable"},
+    [BASE + 8] = {"10Kxp", "consumable"},
+    [BASE + 9] = {"20Kxp", "consumable"},
+
+    -- Royal Arts
+    [BASE + 10] = {"waterwalking", "toggle"},
+    [BASE + 11] = {"flying", "toggle"},
 
     -- Skills
-    [BASE + 3] = {"flamepurr", "toggle"},
-    [BASE + 4] = {"healingpaw", "toggle"},
-    [BASE + 5] = {"lightnyan", "toggle"},
-    [BASE + 6] = {"cattrap", "toggle"},
-    [BASE + 7] = {"purrserk", "toggle"},
-    [BASE + 8] = {"astropaw", "toggle"},
-    [BASE + 9] = {"freezepaw", "toggle"},
-    --[BASE + 21] = {"Progressive Flamepurr", "toggle"},
-    --[BASE + 22] = {"Progressive Healing Paw", "toggle"},
-    --[BASE + 23] = {"Progressive Lightnyan", "toggle"},
-    --[BASE + 24] = {"Progressive Cattrap", "toggle"},
-    --[BASE + 25] = {"Progressive Purrserk", "toggle"},
-    --[BASE + 26] = {"Progressive Astropaw", "toggle"},
-    --[BASE + 27] = {"Progressive Freezepaw", "toggle"},
-    --[BASE + 28] = {"Progressive Flamepurr Upgrade", "toggle"},
-    --[BASE + 29] = {"Progressive Healing Paw Upgrade", "toggle"},
-    --[BASE + 30] = {"Progressive Lightnyan Upgrade", "toggle"},
-    --[BASE + 31] = {"Progressive Cattrap Upgrade", "toggle"},
-    --[BASE + 32] = {"Progressive Purrserk Upgrade", "toggle"},
-    --[BASE + 33] = {"Progressive Astropaw Upgrade", "toggle"},
-    --[BASE + 34] = {"Progressive Freezepaw Upgrade", "toggle"},
-    --[BASE + 35] = {"Progressive Magic Level Upgrade", "toggle"},
+    [BASE + 12] = {"flamepurrProg", "toggle"},
+    [BASE + 13] = {"healingpawProg", "toggle"},
+    [BASE + 14] = {"lightnyanProg", "toggle"},
+    [BASE + 15] = {"cattrapProg", "toggle"},
+    [BASE + 16] = {"purrserkProg", "toggle"},
+    [BASE + 17] = {"astropawProg", "toggle"},
+    [BASE + 18] = {"freezepawProg", "toggle"},
+
+    --Progressive Skills
+    [BASE + 19] = {"flamepurrUpgrade", "consumable"},
+    [BASE + 20] = {"healingpawUpgrade", "consumable"},
+    [BASE + 21] = {"lightnyanUpgrade", "consumable"},
+    [BASE + 22] = {"cattrapUpgrade", "consumable"},
+    [BASE + 23] = {"purrserkUpgrade", "consumable"},
+    [BASE + 24] = {"astropawUpgrade", "consumable"},
+    [BASE + 25] = {"freezepawUpgrade", "consumable"},
+
+    
+    --Upgrades
+    [BASE + 26] = {"flamepurrUpgrade", "consumable"},
+    [BASE + 27] = {"healingpawUpgrade", "consumable"},
+    [BASE + 28] = {"lightnyanUpgrade", "consumable"},
+    [BASE + 29] = {"cattrapUpgrade", "consumable"},
+    [BASE + 30] = {"purrserkUpgrade", "consumable"},
+    [BASE + 31] = {"astropawUpgrade", "consumable"},
+    [BASE + 32] = {"freezepawUpgrade", "consumable"},
+
+    --Magic???
+    [BASE + 33] = {"Progressive Magic Level", "consumable"},
 
     -- Golden Key
-    [BASE + 10] = {"goldkey", "toggle"},
+    [BASE + 34] = {"goldkey", "toggle"}
 
-    -- Gold
-    [BASE + 11] = {"50 Gold"},
-    [BASE + 12] = {"500 Gold"},
-    [BASE + 13] = {"750 Gold"},
-    [BASE + 14] = {"1000 Gold"},
-    [BASE + 15] = {"5000 Gold"},
-    [BASE + 16] = {"10K Gold"},
+    
 
-    -- Exp
-    [BASE + 17] = {"500 Exp"},
-    [BASE + 18] = {"1000 Exp"},
-    [BASE + 19] = {"5000 Exp"},
-    [BASE + 20] = {"7500 Exp"},
-    [BASE + 21] = {"10K Exp"},
-    [BASE + 22] = {"20K Exp"},
-    [BASE + 23] = {"50K Exp"},
-    [BASE + 24] = {"100K Exp"}
+
 }

@@ -1,0 +1,19 @@
+{
+    "settings_popup": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_size": 96,
+        "item_h_alignment": "center", 
+        "item_v_alignment": "center",
+        "rows": [
+            [
+                "goals",
+                "skills"
+            ],
+            [
+                "monuments",
+                "temples"
+            ]
+        ]
+    }
+}
