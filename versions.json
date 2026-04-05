@@ -2,6 +2,18 @@
 
 	"versions": [
 		{
+			"package_version": "2.0.0",
+			"download_url": "https://github.com/Apheayenne/Cat_Quest_Poptracker/releases/download/v2.0.0_Release/Cat_Quest_Poptracker.zip",
+			"sha256": "3447796b6a596f3067c43970dc1b5170f76036baff544b786d16c8268cd537f1",
+			"changelog": [
+				"Update for Archipelago v0.3.0",
+				"Changed images for checks",
+				"Added new items for Progressive and Upgrade Items",
+				"Added new Checks for Temples and Monuments",
+				"Added new Settings for Goals, Skill Upgrades, Coin/EXP rewards, and Monument/Temple checks"
+			]
+		},
+		{
 			"package_version": "1.1.0",
 			"download_url": "https://github.com/Apheayenne/Cat_Quest_Poptracker/releases/download/v1.1.0_Release/Cat_Quest_Poptracker.zip",
 			"sha256": "fe7fccd6017abf5620001e64e4515fdb6ff7a1c18a9d1799fe9af1d21e33fb4a",
