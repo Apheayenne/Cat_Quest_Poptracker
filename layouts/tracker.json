@@ -17,7 +17,7 @@
                     },
                     {
                         "type": "group",
-                        "header": "Gold and EXP",
+                        "header": "Settings",
                         "dock": "top",
                         "content": {
                             "type": "layout",

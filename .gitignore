@@ -1,4 +1,2 @@
 .luarc.json export-ignore: true
 .vscode/* export-ignore: true
-.images/GimpFiles
-.images/WorldMap_Coordinates.jpeg
